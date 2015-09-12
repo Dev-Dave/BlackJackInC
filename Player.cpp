@@ -7,7 +7,6 @@ using namespace std;
 class Player {
 	
 	string playerName;
-<<<<<<< HEAD
 	int playerAge;
 	int playerNum;
 
@@ -22,15 +21,12 @@ Player::Player(string name, int age, int num) {
 	playerName = name;
 	playerAge = age;
 	playerNum = num;
-=======
->>>>>>> parent of 312b9fe... Add age value and getAge() method to Player class.
 }
 
 string Player::getName() {
 	return playerName;
 }
 
-<<<<<<< HEAD
 int Player::getAge() {
 	return playerAge;
 }
@@ -45,7 +41,5 @@ int main() {
 	cout << "Name: " << player.getName() << endl;
 	cout << "Age: " << player.getAge() << endl;
 	cout << "Number: " << player.getNum() << endl;
-=======
->>>>>>> parent of 312b9fe... Add age value and getAge() method to Player class.
 	return 0;
 }
